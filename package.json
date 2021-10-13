@@ -1,0 +1,22 @@
+{
+  "name": "tdd-kata-excercise-string-calculator-nodejs",
+  "version": "1.0.0",
+  "description": "simple string calculator",
+  "main": "string_calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azterix101/tdd-kata-excercise-string-calculator-nodejs.git"
+  },
+  "author": "Neo Mashego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azterix101/tdd-kata-excercise-string-calculator-nodejs/issues"
+  },
+  "homepage": "https://github.com/Azterix101/tdd-kata-excercise-string-calculator-nodejs#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

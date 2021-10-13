@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")({ sigint: true });
+//With readline
 //Create a simple String calculator with a method signature:
 
 const Add = (number_set)=>{
@@ -43,4 +45,6 @@ const Filter_out_Unwanted_Characters= (string_list) =>{
     return string_list.match(/-?\d+/g).map(Number);
 }
 
-Add("//[-*][%]\n1*2%3");
+const user_input = prompt("Please enter the numbers you would like to in the terminal ");
+
+Add(user_input);
